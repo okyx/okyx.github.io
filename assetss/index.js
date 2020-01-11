@@ -1,3 +1,3 @@
-document.getElementById('tombol').click() = () => {
-    alert('hello');
+document.getElementById('tombol').onclick = () => {
+    alert('Hi There!');
 }
