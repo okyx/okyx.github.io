@@ -1,1 +1,3 @@
-document.getElementById('tombol').click() = alert('halo');
+document.getElementById('tombol').click() = () => {
+    alert('hello');
+}
