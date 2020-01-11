@@ -1,0 +1,1 @@
+document.getElementById('tombol').click() = alert('halo');
