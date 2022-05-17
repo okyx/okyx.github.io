@@ -15,11 +15,23 @@
     body{
       overflow-x: hidden;
     }
-    .bgimage {
+    @media only screen and (min-width: 1200px) {
+      /* For desktop: */
+      .bgimage {
         height:100vh;
         background: url('assets/images/deep learning.gif');
         background-size:cover;
         position:relative;
+    }
+    }
+    @media only screen and (min-width: 100px) {
+      /* For desktop: */
+      .bgimage {
+        height:100vh;
+        background: url('assets/images/neural.gif');
+        background-size:cover;
+        position:relative;
+    }
     }
     /* text css above hero image*/
     .hero_title {
@@ -137,16 +149,16 @@
   <!-- about -->
   <section id="me" class="bg-secondary">
     <div class="row py-3">
-      <div class="col-3 text-center">
+      <div class="col-xl-3 col-md-6 text-center">
         <a href="https://www.github.com/okyx"><img src="assets/images/github.svg" alt="" width="10%"></a>
       </div>
-      <div class="col-3 text-center">
+      <div class="col-3 col-md-6 text-center">
         <a href="https://www.linkedin.com/in/zicolavladimir"><img src="assets/images/linkedin.svg" alt="" width="10%"></a>
       </div>
-      <div class="col-3 text-center">
+      <div class="col-3 col-md-6 text-center">
         <a href="mailto:zicolazicola@gmail.com"><img src="assets/images/email.svg" alt="" width="10%"></a>
       </div>
-      <div class="col-3 text-center">
+      <div class="col-3 col-md-6 text-center">
         <a href="https://www.instagram.com/zicolavladimir"><img src="assets/images/instagram.svg" alt="" width="10%"></a>
       </div>
     </div>
